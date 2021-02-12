@@ -219,3 +219,25 @@ function ea_template_hierarchy( $template ) {
 	return $template;
 }
 add_filter( 'template_include', 'ea_template_hierarchy' );
+
+
+
+// Gutenberg 
+
+add_action('acf/init', 'my_acf_blocks_init');
+function my_acf_blocks_init() {
+
+    // Check function exists.
+    if( function_exists('acf_register_block_type') ) {
+
+        // Register a bio block.
+        acf_register_block_type(array(
+            'name'              => 'bio-block',
+            'title'             => __('Bio'),
+            'description'       => __('A custom bio block'),
+            'render_template'   => 'partials/blocks/bio.php',
+            'category'          => 'formatting',
+            'enqueue_style'     => get_template_directory_uri() . '/assets/css/main.css',
+        ));
+    }
+}
