@@ -42,7 +42,8 @@
     "label_placement": "top",
     "instruction_placement": "label",
     "hide_on_screen": "",
-    "active": 1,
+    "active": true,
     "description": "",
-    "modified": 1574197469
+    "modified": 1613155277,
+    "local_file": "\/var\/www\/html\/wp-content\/themes\/sandbox\/acf-json\/group_5dd458c5a322b.json"
 }
