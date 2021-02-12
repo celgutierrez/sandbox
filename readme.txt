@@ -1,49 +1,66 @@
-=== Twenty Twenty-One ===
-Contributors: wordpressdotorg
-Requires at least: 5.3
+=== Twenty Twenty ===
+Contributors: the WordPress team
 Tested up to: 5.6
-Requires PHP: 5.6
-Stable tag: 1.1
+Stable tag: 1.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
+Default theme for 2020.
+
 == Description ==
 
-Twenty Twenty-One is a blank canvas for your ideas and it makes the block editor your best brush.
-
-With new block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme’s soft colors and eye-catching — yet timeless — design will let your work shine.
-
-Take it for a spin! See how Twenty Twenty-One elevates your portfolio, business website, or personal blog.
-
-== Installation ==
-
-1. In your admin panel, go to Appearance -> Themes and click the 'Add New' button.
-2. Type in Twenty Twenty-One in the search form and press the 'Enter' key on your keyboard.
-3. Click on the 'Activate' button to use your new theme right away.
-4. Go to INSERT ABOUT PAGE for a guide on how to customize this theme.
-5. Navigate to Appearance > Customize in your admin panel and customize to your taste.
-
-== Privacy ==
-Twenty Twenty-One uses LocalStorage to save the setting when Dark Mode support is turned on or off.
-LocalStorage is necessary for the setting to work and is only used when a user clicks on the Dark Mode button.
-No data is saved in the database or transferred.
+Our default theme for 2020 is designed to take full advantage of the
+flexibility of the block editor. Organizations and businesses have the
+ability to create dynamic landing pages with endless layouts using the
+group and column blocks. The centered content column and fine-tuned
+typography also makes it perfect for traditional blogs. Complete editor
+styles give you a good idea of what your content will look like, even
+before you publish. You can give your site a personal touch by changing
+the background colors and the accent color in the Customizer. The colors of
+all elements on your site are automatically calculated based on the colors
+you pick, ensuring a high, accessible color contrast for your visitors.
 
 == Changelog ==
 
-= 1.1 =
-* Released: December 22, 2020
-
-https://wordpress.org/support/article/twenty-twenty-one-changelog#Version_1.1
-
-= 1.0 =
+= 1.6 =
 * Released: December 8, 2020
 
-https://wordpress.org/support/article/twenty-twenty-one-changelog#Version_1.0
+https://wordpress.org/support/article/twenty-twenty-changelog/#Version_1.6
+
+= 1.5 =
+* Released: August 11, 2020
+
+https://wordpress.org/support/article/twenty-twenty-changelog/#Version_1.5
+
+= 1.4 =
+* Released: June 10, 2020
+
+https://wordpress.org/support/article/twenty-twenty-changelog/#Version_1.4
+
+= 1.3 =
+* Released: May 14, 2020
+
+https://wordpress.org/support/article/twenty-twenty-changelog/#Version_1.3
+
+= 1.2 =
+* Released: March 31, 2020
+
+https://wordpress.org/support/article/twenty-twenty-changelog/#Version_1.2
+
+= 1.1 =
+* Released: December 12, 2019
+
+https://wordpress.org/support/article/twenty-twenty-changelog/#Version_1.1
+
+= 1.0 =
+* Released: November 12, 2019
+
+Initial release
 
 == Copyright ==
 
-Twenty Twenty-One WordPress Theme, 2020 WordPress.org
-Twenty Twenty-One is distributed under the terms of the GNU GPL.
+Twenty Twenty WordPress Theme, Copyright 2019-2020 WordPress.org
+Twenty Twenty is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -55,50 +72,57 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
+Twenty Twenty is derived from the Chaplin Theme, Copyright 2019 Anders Norén
+Chaplin Theme is distributed under the terms of the GNU GPL version 2.0
 
-Twenty Twenty-One is derived from Seedlet, (C) 2020 Automattic, Inc.
+Twenty Twenty bundles the following third-party resources:
 
-Twenty Twenty-One is also based on:
+Illustrations by Tammie Lister
+License: Creative Commons Zero (CC0), https://creativecommons.org/publicdomain/zero/1.0/
 
-Twenty Nineteen. 2018-2020 WordPress.org
-Twenty Nineteen is distributed under the terms of the GNU GPL v2 or later.
+Inter Font
+Copyright (c) 2016-2019 The Inter Project Authors (me@rsms.me)
+License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
+Source: https://rsms.me/inter/
 
-Twenty Seventeen. Copyright (C) 2016-2020 WordPress.org
-Twenty Seventeen is distributed under the terms of the GNU GPL v2 or later.
+Bespoke Icons Created For Twenty Twenty
+License: Creative Commons Zero (CC0), https://creativecommons.org/publicdomain/zero/1.0/
+List of bespoke icons:
+- Search icon
+- Menu icon
 
-Twenty Sixteen. Copyright (C) 2015-2020 WordPress.org
-Twenty Sixteen is distributed under the terms of the GNU GPL v2 or later.
+Feather Icons
+Copyright (c) 2013-2017 Cole Bemis
+License: MIT License, https://opensource.org/licenses/MIT
+Source: https://feathericons.com
+Used for post meta icons, and the link icon in the social menu.
 
-Twenty Twenty. Copyright (C) 2020 WordPress.org
-Twenty Twenty is distributed under the terms of the GNU GPL v2 or later.
+TikTok Icon
+License: GPLv2
+Source: Émilie Lebrun - @Emlebrun
+Used for TikTok social icon.
 
-Underscores https://underscores.me/, Copyright (C) 2012-2020 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
+Social Icons
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Source: WordPress Social Link Block (See wp-includes\blocks\social-link.php)
 
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+Code from Twenty Nineteen
+Copyright (c) 2018-2020 WordPress.org
+License: GPLv2
+Source: https://wordpress.org/themes/twentynineteen/
+Included as part of the following classes and functions:
+- TwentyTwenty_SVG_Icons
+- twentytwenty_the_theme_svg()
+- twentytwenty_get_theme_svg()
+- twentytwenty_nav_menu_social_icons()
 
-Unless otherwise noted, the icons in this theme are derived from the WordPress
-Icons Library, licensed under the terms of the GNU GPL v2 or later.
-https://github.com/WordPress/gutenberg/tree/master/packages/icons
+Code from Twenty Seventeen
+Copyright (c) 2016-2020 WordPress.org
+License: GPLv2
+Source: https://wordpress.org/themes/twentyseventeen/
+Included as part of the following classes and functions:
+- twentytwenty_unique_id()
 
-This theme bundles the following third-party resources:
-
-input[type='checkbox'], input[type='radio'], input[type='ranged'],
-https://css-tricks.com/custom-styling-form-inputs-with-modern-css-features/
-https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/
-https://codepen.io/aaroniker/pen/ZEYoxEY Copyright (c) 2020 Aaron Iker
-https://codepen.io/chriscoyier/pen/FtnAa Copyright (c) 2020 Chris Coyier
-License: MIT.
-
-Images
-Art by Berthe Morisot 1841-1895. Public domain.
-https://www.wikiart.org/en/berthe-morisot/playing-in-the-sand
-https://www.wikiart.org/en/berthe-morisot/roses-tremieres-hollyhocks-1884
-https://www.wikiart.org/en/berthe-morisot/young-woman-in-mauve
-https://www.wikiart.org/en/berthe-morisot/in-the-bois-de-boulogne
-https://www.wikiart.org/en/berthe-morisot/daffodils
-https://www.wikiart.org/en/berthe-morisot/self-portrait-1885
-https://www.wikiart.org/en/berthe-morisot/the-garden-at-bougival-1884
-https://www.wikiart.org/en/berthe-morisot/villa-with-orange-trees-nice
-https://www.wikiart.org/en/berthe-morisot/reading
+Underscores
+https://underscores.me/, (C) 2012-2020 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
